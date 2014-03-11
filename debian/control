@@ -1,0 +1,12 @@
+Source: linuxmuster-package-template
+Section: unknown
+Priority: extra
+Maintainer: Frank Schiebel <frank@linuxmuster.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+
+Package: linuxmuster-package-template
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Empty package as base for new ideas
